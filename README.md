@@ -38,7 +38,7 @@ Easy Ensemble is the most accurate while Cluster Centroid is the least accurate.
 -	Balanced Random Forest Classifier: high-0.04, low-1.0
 -	Easy Ensemble AdaBoost Classifier: high-0.07, low-1.0
 
-Easy Ensemble has the best overall precision of all models, but its “high risk” precision score is only marginally better than the other models. Lower precision scores indicate greater incidence false positives.  
+Easy Ensemble has the best overall precision of all models, but its “high risk” precision score is only marginally better than the other models (none of which are good). Lower precision scores indicate greater incidence false positives.  
 
 ### Recall Scores
 -	Naïve Random Over Sampler: high-0.60, low-0.65
@@ -48,7 +48,7 @@ Easy Ensemble has the best overall precision of all models, but its “high risk
 -	Balanced Random Forest Classifier: high-0.67, low-0.91
 -	Easy Ensemble AdaBoost Classifier: high-0.91, low-0.94
 
-Easy Ensemble has the best recall scores while Cluster Centroid has the worst recall scores. Lower recall (sensitivity) scores indicate greater incidence of false negatives.  
+Easy Ensemble has the best overall recall scores while Cluster Centroid has the worst. Lower recall (sensitivity) scores indicate greater incidence of false negatives.  
 
 ## Summary
 ### Overall Ranking of Assessed Models
@@ -61,4 +61,6 @@ Based on the results, this is how I would rank the assessed prediction models.
 6.	(Worst) Cluster Centroid Undersampling
 
 ### Conclusions
-Despite the above rankings, all models have low precision scores for “high-risk” entries. As precision is a measure of the model’s ability to predict positive results correctly, I would conclude that NONE of the models are good at predicting people most at-risk of loan default. **As a result, I would NOT recommend “Fast Lending” use any of these models for analysis of credit risk and loan determination.  I believe other machine learning prediction models need to be assessed.**    
+Despite the above rankings (including Easy Ensemble's high ranking on accuracy and recall), ALL models have low precision scores for “high risk” entries. As precision is a measure of the model’s ability to predict positive results correctly, all models are going to result in more false positives relative to true positives. That is, there will be more low risk entries predicted as high risk than actual high risk correctly predicted as high risk. While it is better to reject low-risk applicants than accept high-risk applications, if "Fast Lending" accepts any of these models, they jeopardize losing future interest income by rejecting good loan applicants. 
+
+**As a result, before “Fast Lending” uses any of these models, I believe other machine learning prediction models need to be assessed.**    
