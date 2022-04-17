@@ -27,6 +27,7 @@ The deliverables for this assignment were:
 -	Combination Sampling (SMOTEENN): 0.65
 -	Balanced Random Forest Classifier: 0.91
 -	Easy Ensemble AdaBoost Classifier: 0.94
+
 Easy Ensemble is the most accurate while Cluster Centroid is the least accurate. Lower accuracy scores indicate greater incidence of false positives and/or false negatives.  
 
 ### Precision Scores
@@ -36,6 +37,7 @@ Easy Ensemble is the most accurate while Cluster Centroid is the least accurate.
 -	Combination Sampling (SMOTEENN): high-0.01, low
 -	Balanced Random Forest Classifier: high-0.04, low-1.0
 -	Easy Ensemble AdaBoost Classifier: high-0.07, low-1.0
+
 Easy Ensemble has the best overall precision of all models, but its “high risk” precision score is only marginally better than the other models. Lower precision scores indicate greater incidence false positives.  
 
 ### Recall Scores
@@ -45,6 +47,7 @@ Easy Ensemble has the best overall precision of all models, but its “high risk
 -	Combination Sampling (SMOTEENN): high-0.72, low-0.58
 -	Balanced Random Forest Classifier: high-0.67, low-0.91
 -	Easy Ensemble AdaBoost Classifier: high-0.91, low-0.94
+
 Easy Ensemble has the best recall scores while Cluster Centroid has the worst recall scores. Lower recall (sensitivity) scores indicate greater incidence of false negatives.  
 
 ## Summary / Conclusions
@@ -56,5 +59,7 @@ Based on the results, this is how I would rank the assessed prediction models.
 4.	SMOTE Oversampling
 5.	Naïve Random Oversampling
 6.	(Worst) Cluster Centroid Undersampling
+
 Despite the above rankings, all models have low precision scores for “high-risk” entries. As precision is a measure of the model’s ability to predict positive results correctly, I would conclude that NONE of the models are good at predicting people most at-risk of loan default. 
+
 As a result, I would NOT recommend “Fast Lending” use any of these models for analysis of credit risk and loan determination.  I believe other machine learning prediction models need to be assessed.    
