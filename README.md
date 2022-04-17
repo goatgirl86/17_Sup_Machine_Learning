@@ -28,7 +28,7 @@ The deliverables for this assignment were:
 -	Balanced Random Forest Classifier: 0.91
 -	Easy Ensemble AdaBoost Classifier: 0.94
 
-Easy Ensemble is the most accurate while Cluster Centroid is the least accurate. Lower accuracy scores indicate greater incidence of false positives and false negatives.  
+Easy Ensemble is the most accurate while Cluster Centroid is the least accurate. Lower accuracy scores indicate greater incidence of false positives and/or false negatives.  
 
 ### Precision Scores
 -	Naïve Random Over Sampler: high-0.01, low-1.0
