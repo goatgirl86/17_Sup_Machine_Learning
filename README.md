@@ -50,7 +50,7 @@ Easy Ensemble has the best overall precision of all models, but its “high risk
 
 Easy Ensemble has the best recall scores while Cluster Centroid has the worst recall scores. Lower recall (sensitivity) scores indicate greater incidence of false negatives.  
 
-## Summary / Conclusions
+## Summary
 ### Overall Ranking of Assessed Models
 Based on the results, this is how I would rank the assessed prediction models. 
 1.	(Best) Easy Ensemble AdaBoost Classifier
@@ -60,6 +60,5 @@ Based on the results, this is how I would rank the assessed prediction models.
 5.	Naïve Random Oversampling
 6.	(Worst) Cluster Centroid Undersampling
 
-Despite the above rankings, all models have low precision scores for “high-risk” entries. As precision is a measure of the model’s ability to predict positive results correctly, I would conclude that NONE of the models are good at predicting people most at-risk of loan default. 
-
-As a result, I would NOT recommend “Fast Lending” use any of these models for analysis of credit risk and loan determination.  I believe other machine learning prediction models need to be assessed.    
+### Conclusions
+Despite the above rankings, all models have low precision scores for “high-risk” entries. As precision is a measure of the model’s ability to predict positive results correctly, I would conclude that NONE of the models are good at predicting people most at-risk of loan default. **As a result, I would NOT recommend “Fast Lending” use any of these models for analysis of credit risk and loan determination.  I believe other machine learning prediction models need to be assessed.**    
