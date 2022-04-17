@@ -31,24 +31,53 @@ The deliverables for this assignment were:
 Easy Ensemble is the most accurate while Cluster Centroid is the least accurate. Lower accuracy scores indicate greater incidence of false positives and/or false negatives.  
 
 ### Precision Scores
--	Naïve Random Over Sampler: high-0.01, low-1.0
--	SMOTE Oversampling: high-0.01, low-1.0
--	Cluster Centroids Undersampling: high-0.01, low-1.0
--	Combination Sampling (SMOTEENN): high-0.01, low
--	Balanced Random Forest Classifier: high-0.04, low-1.0
--	Easy Ensemble AdaBoost Classifier: high-0.07, low-1.0
+-	Naïve Random Over Sampler: high=0.01, low=1.0
+-	SMOTE Oversampling: high=0.01, low=1.0
+-	Cluster Centroids Undersampling: high=0.01, low=1.0
+-	Combination Sampling (SMOTEENN): high=0.01, low=1.0
+-	Balanced Random Forest Classifier: high=0.04, low=1.0
+-	Easy Ensemble AdaBoost Classifier: high=0.07, low=1.0
 
-Easy Ensemble has the best overall precision of all models, but its “high risk” precision score is only marginally better than the other models (none of which are good). Lower precision scores indicate greater incidence false positives.  
+Easy Ensemble has the best overall precision of all models, but its “high risk” precision score is only marginally better than the other models (none of which are good). Lower precision scores indicate greater incidence false positives (predicted as positive but actually negative).
 
 ### Recall Scores
--	Naïve Random Over Sampler: high-0.60, low-0.65
--	SMOTE Oversampling: high-0.64, low-0.66
--	Cluster Centroids Undersampling: high-0.59, low-0.43
--	Combination Sampling (SMOTEENN): high-0.72, low-0.58
--	Balanced Random Forest Classifier: high-0.67, low-0.91
--	Easy Ensemble AdaBoost Classifier: high-0.91, low-0.94
+-	Naïve Random Over Sampler: high=0.60, low=0.65
+-	SMOTE Oversampling: high=0.64, low=0.66
+-	Cluster Centroids Undersampling: high=0.59, low=0.43
+-	Combination Sampling (SMOTEENN): high=0.72, low=0.58
+-	Balanced Random Forest Classifier: high=0.67, low=0.91
+-	Easy Ensemble AdaBoost Classifier: high=0.91, low=0.94
 
-Easy Ensemble has the best overall recall scores while Cluster Centroid has the worst. Lower recall (sensitivity) scores indicate greater incidence of false negatives.  
+Easy Ensemble has the best overall recall scores while Cluster Centroid has the worst. Lower recall (sensitivity) scores indicate greater incidence of false negatives (predicted as negative but actually positive). 
+
+
+###Screenshots of Model Summaries
+
+Screenshot 1: Naïve Random Over Sampler
+
+![image](https://user-images.githubusercontent.com/92705556/163703895-6fa140f5-9e7d-4130-9350-e11e2de5e2bc.png)
+
+Screenshot 2: SMOTE Oversampling
+
+![image](https://user-images.githubusercontent.com/92705556/163703906-ba233e37-ac2a-4c33-ae8c-32834640dc5a.png)
+
+Screenshot 3: Cluster Centroids Undersampling
+
+![image](https://user-images.githubusercontent.com/92705556/163703921-ebb0bb88-c3ce-42fd-a251-8f68ddb6eb15.png)
+
+Screenshot 4: Combination Sampling (SMOTEENN)
+
+![image](https://user-images.githubusercontent.com/92705556/163703929-8cf7953f-86c5-423e-8ed7-9f1ebe56a7d0.png)
+
+Screenshot 5: Balanced Random Forest Classifier
+![image](https://user-images.githubusercontent.com/92705556/163703940-ac37124b-830b-4259-8b6f-2767cbf06220.png)
+
+Screenshot 6: Easy Ensemble AdaBoost Classifier
+![image](https://user-images.githubusercontent.com/92705556/163703950-f74f328b-aedf-4230-9bdf-1984f5da8b1c.png)
+
+Screenshot 7: Feature Importances List (Balanced Random Forest Classifier)
+![image](https://user-images.githubusercontent.com/92705556/163703961-0f742bd0-e0de-4ad8-bc8f-b3e106feb58a.png)
+
 
 ## Summary
 ### Overall Ranking of Assessed Models
