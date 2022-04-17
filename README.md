@@ -95,4 +95,4 @@ Based on the results, this is how I would rank the assessed prediction models.
 ### Conclusions
 Despite the above rankings (including Easy Ensemble's high ranking on accuracy and recall), ALL models have low precision scores for “high risk” entries. As precision is a measure of the model’s ability to predict positive results correctly, ALL models are going to result in more false positives relative to true positives. That is, there will be more low risk entries predicted as high risk than actual high risk correctly predicted as high risk. While it is better to reject low-risk applicants than accept high-risk applications, if "Fast Lending" accepts any of these models, they jeopardize losing future interest income by rejecting good loan applicants. 
 
-**As a result, before “Fast Lending” uses any of these models, I believe other machine learning prediction models need to be assessed.**    
+**As a result, before “Fast Lending” uses any of these models, I believe other machine learning prediction models should be assessed.**    
