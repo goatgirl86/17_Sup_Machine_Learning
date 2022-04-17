@@ -20,6 +20,8 @@ The deliverables for this assignment were:
 -	Deliverable 3: Use Ensemble Classifiers to Predict Credit Risk ## Results
 
 ## Results
+The following bulleted lists detail prediction results (accuracy, precision, and recall/sensitity) for 6 different supervised machine learning models.  
+
 ### Accuracy Scores
 -	Naïve Random Over Sampler: 0.62
 -	SMOTE Oversampling: 0.65
