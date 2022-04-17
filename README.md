@@ -8,7 +8,7 @@
 ## Project Overview
 ### Purpose
 
-The purpose of this challenge was to explore Supervised Machine Learning by helping Jill from “Fast Lending” predict credit card risk using oversampling, undersampling, and various machine learning models.  
+The purpose of this challenge was to explore Supervised Machine Learning by helping Jill from “Fast Lending” predict credit card risk using oversampling, undersampling, and various supervised machine learning models.  
 
 ### Data Analyzed
 -	LoanStats_2019Q1.csv (Credit card credit dataset from LendingClub, a peer-to-peer lending services company)
