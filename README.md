@@ -51,7 +51,7 @@ Easy Ensemble has the best overall precision of all models, but its “high risk
 Easy Ensemble has the best overall recall scores while Cluster Centroid has the worst. Lower recall (sensitivity) scores indicate greater incidence of false negatives (predicted as negative but actually positive). 
 
 
-###Screenshots of Model Summaries
+### Screenshots of Model Summaries
 
 Screenshot 1: Naïve Random Over Sampler
 
@@ -70,12 +70,15 @@ Screenshot 4: Combination Sampling (SMOTEENN)
 ![image](https://user-images.githubusercontent.com/92705556/163703929-8cf7953f-86c5-423e-8ed7-9f1ebe56a7d0.png)
 
 Screenshot 5: Balanced Random Forest Classifier
+
 ![image](https://user-images.githubusercontent.com/92705556/163703940-ac37124b-830b-4259-8b6f-2767cbf06220.png)
 
 Screenshot 6: Easy Ensemble AdaBoost Classifier
+
 ![image](https://user-images.githubusercontent.com/92705556/163703950-f74f328b-aedf-4230-9bdf-1984f5da8b1c.png)
 
 Screenshot 7: Feature Importances List (Balanced Random Forest Classifier)
+
 ![image](https://user-images.githubusercontent.com/92705556/163703961-0f742bd0-e0de-4ad8-bc8f-b3e106feb58a.png)
 
 
