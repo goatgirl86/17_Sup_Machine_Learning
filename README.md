@@ -27,8 +27,8 @@ The following bulleted lists detail prediction results (accuracy, precision, and
 -	SMOTE Oversampling: 0.65
 -	Cluster Centroids Undersampling:0.51
 -	Combination Sampling (SMOTEENN): 0.65
--	Balanced Random Forest Classifier: 0.91
--	Easy Ensemble AdaBoost Classifier: 0.94
+-	Balanced Random Forest Classifier: 0.79
+-	Easy Ensemble AdaBoost Classifier: 0.93
 
 Easy Ensemble is the most accurate while Cluster Centroid is the least accurate. Lower accuracy scores indicate greater incidence of false positives and/or false negatives.  
 
@@ -73,11 +73,11 @@ Screenshot 4: Combination Sampling (SMOTEENN)
 
 Screenshot 5: Balanced Random Forest Classifier
 
-![image](https://user-images.githubusercontent.com/92705556/163703940-ac37124b-830b-4259-8b6f-2767cbf06220.png)
+![image](https://user-images.githubusercontent.com/92705556/164130986-3c8c5178-c6c5-41e2-943d-4a5499c17b08.png)
 
 Screenshot 6: Easy Ensemble AdaBoost Classifier
 
-![image](https://user-images.githubusercontent.com/92705556/163703950-f74f328b-aedf-4230-9bdf-1984f5da8b1c.png)
+![image](https://user-images.githubusercontent.com/92705556/164130604-9f9a214f-b4d9-4d98-a30d-f7cbe84c479b.png)
 
 Screenshot 7: Feature Importances List (Balanced Random Forest Classifier)
 
