@@ -73,7 +73,7 @@ Screenshot 4: Combination Sampling (SMOTEENN)
 
 Screenshot 5: Balanced Random Forest Classifier
 
-![image](https://user-images.githubusercontent.com/92705556/164130537-b149cee7-5446-48d8-8aaf-af5fc4bcb5f0.png)
+![image](https://user-images.githubusercontent.com/92705556/164130986-3c8c5178-c6c5-41e2-943d-4a5499c17b08.png)
 
 Screenshot 6: Easy Ensemble AdaBoost Classifier
 
